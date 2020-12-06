@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1607264314 source:d:\github\estudos\c\giraffe\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1607215340 source:d:\github\estudos\c\giraffe\tipos.c
+	<stdio.h>
+	<stdlib.h>
+
