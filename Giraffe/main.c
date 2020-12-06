@@ -54,7 +54,7 @@ int main()
     printf("%sare %d years old",name, age);
     */
 
-    /*Arrays*/
+    /*Arrays
         int luckyNumbers[] = {1,2,3,44,95,10};
         int numbers[2];
         printf("Enter number[1]:");
@@ -67,8 +67,18 @@ int main()
         printf("\n%d", luckyNumbers[0]);
         luckyNumbers[0] = 1000;
         printf("\n%d", luckyNumbers[0]);
-
-    return 0;
+    */
+        /*sayHi();
+        sayHi2("Paulo", 32);
+        return 0;*/
+        /*Return Statement*/
 }
-
+/*Functions
+    void sayHi(){
+    printf("Hi User");
+    }
+    void sayHi2(char name[], int age){
+    printf("\nHi %s, you are %d",name, age);
+    }
+*/
 
