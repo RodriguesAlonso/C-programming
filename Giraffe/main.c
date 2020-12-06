@@ -54,6 +54,20 @@ int main()
     printf("%sare %d years old",name, age);
     */
 
+    /*Arrays*/
+        int luckyNumbers[] = {1,2,3,44,95,10};
+        int numbers[2];
+        printf("Enter number[1]:");
+        scanf("%d", &numbers[1]);
+        printf("Enter number[0]:");
+        scanf("%d", &numbers[0]);
+
+
+        printf("%d %d", numbers[0], numbers[1]);
+        printf("\n%d", luckyNumbers[0]);
+        luckyNumbers[0] = 1000;
+        printf("\n%d", luckyNumbers[0]);
+
     return 0;
 }
 
