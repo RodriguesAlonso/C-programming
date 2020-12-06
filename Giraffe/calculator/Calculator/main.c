@@ -3,6 +3,16 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    double num1;
+    double num2;
+    printf("Enter first number: ");
+    scanf("%lf", &num1);
+    printf("Enter seclond number: ");
+    scanf("%lf", &num2);
+
+    printf("\nAnswer: %f", num1 + num2);
+    printf("\nAnswer: %f", num1 * num2);
+    printf("\nAnswer: %f", num1 - num2);
+    printf("\nAnswer: %f", num1 / num2);
     return 0;
 }
