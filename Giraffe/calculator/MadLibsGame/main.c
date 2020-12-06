@@ -3,6 +3,12 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    char[20] color;
+    char[20] plural;
+    char[20] celebrity;
+
+    printf("Enter a a color:");
+    scanf("%s", color);
+
     return 0;
 }
