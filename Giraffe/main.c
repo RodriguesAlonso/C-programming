@@ -2,9 +2,30 @@
 #include <stdlib.h>
 
 double cube (double num);
+int max(int num1, int num2, int num3){
+    int result;
+    if(num1 > num2 && num1 > num3){
+        result = num1;
+    }else if(num2 > num1 && num2 > num3) {
+        result = num2;
+    }else{
+        result = num3;
+        }
+
+}
+
 int main()
 {
+    /* if statement printf("%d", max(11, 3,2));
+
+    if(3>20 || 20 < 5){
+        printf("True");
+        } else{
+        printf("False");
+        }
+        */
     /*char characterName[] = "Tom";
+
     int characterAge = 67;
     printf("There once was a man named %s \n", characterName);
     printf("he was %d years old.\n", characterAge);
@@ -90,3 +111,4 @@ double cube(double num){
     double result = num * num *num;
     return result;
 }
+/*If Statements*/
