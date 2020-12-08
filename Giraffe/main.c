@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+double cube (double num);
 int main()
 {
     /*char characterName[] = "Tom";
@@ -70,16 +71,22 @@ int main()
     */
         /*sayHi();
         sayHi2("Paulo", 32);
-        return 0;*/
-        /*Return Statement*/
+        return 0;
+        printf("Answer: %f", cube(3.0));
+*/
+
 
 }
-/*Functions
+/*Functions*/
     void sayHi(){
     printf("Hi User");
     }
     void sayHi2(char name[], int age){
     printf("\nHi %s, you are %d",name, age);
     }
-*/
 
+/*Return Statement*/
+double cube(double num){
+    double result = num * num *num;
+    return result;
+}
