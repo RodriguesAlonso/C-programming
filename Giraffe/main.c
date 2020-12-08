@@ -13,9 +13,24 @@ int max(int num1, int num2, int num3){
         }
 
 }
-
+struct Student{
+    char name[50];
+    char major[50];
+    int age;
+    double gpa;
+};
 int main()
 {
+    struct Student student1;
+    student1.age = 22;
+    student1.gpa = 3.5;
+    strcpy( student1.name, "Jim");
+    strcpy( student1.major, "Business");
+    printf("%d", student1.age);
+    printf("\n%f", student1.gpa);
+    printf("\n%s", student1.name);
+    printf("\n%s", student1.major);
+
     /* if statement printf("%d", max(11, 3,2));
 
     if(3>20 || 20 < 5){
@@ -119,6 +134,7 @@ int main()
         printf("Invalid Grade");
     }
     */
+    /*Structs*/
 }
 /*Functions*/
     void sayHi(){
