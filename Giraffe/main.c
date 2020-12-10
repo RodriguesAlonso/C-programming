@@ -147,6 +147,17 @@ int main()
         printf("%d\n", index);
     }while (index > -2);
     */
+    /*for loop
+    int i;
+    for (i = 1; i <= 5; i++){
+        printf("%d\n", i);
+    }
+    int x;
+    int luckNumbers[] = {4, 2, 88, 8, 17, 1};
+    for (x = 0; x <= 5; x++){
+        printf("%d\n", luckNumbers[x]);
+    }*/
+
 
 }
 /*Functions*/
