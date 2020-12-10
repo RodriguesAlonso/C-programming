@@ -199,14 +199,14 @@ int main()
     FILE * fpointer = fopen("employees.txt", "a");
     fprintf(fpointer,"\nKelly, Customer Service");
     fclose(fpointer);*/
-    /*Reading Files*/
+    /*Reading Files
     FILE * fpointer = fopen("employees.txt", "r");
     char line[255];
     fgets(line, 255, fpointer);
     fgets(line, 255, fpointer);
     printf("%s", line);
     fclose(fpointer);
-
+    */
 }
 /*Functions*/
     void sayHi(){
