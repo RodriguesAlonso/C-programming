@@ -182,7 +182,7 @@ int main()
     char grade = 'A';
     char * pGrade = &grade;
     */
-    /*Dereferencing Pointers*/
+    /*Dereferencing Pointers
     int age = 30;
     int * pAge = age;
     printf("%p\n", &age);
@@ -191,7 +191,14 @@ int main()
     printf("%p\n", &pAge);
     printf("%d\n", &pAge);
     printf("%d\n", &pAge);
-
+    */
+    /*Writing Files
+    FILE * fpointer = fopen("employees.txt", "w");
+    fprintf(fpointer, "Jim, Salesman\nPam, Receptionist\nOscar, Accounting");
+    fclose(fpointer);*/
+    FILE * fpointer = fopen("employees.txt", "a");
+    fprintf(fpointer,"\nKelly, Customer Service");
+    fclose(fpointer);
 
 }
 /*Functions*/
