@@ -168,10 +168,29 @@ int main()
         }
         printf("\n");
     }*/
-
-
-
-
+    /*Memory Adresses
+    int age = 30;
+    double gpa = 3.4;;
+    char grade = 'A';
+    printf("age: %p\mgps: %p\ngrade: %p", &age, &gpa, &grade);
+    */
+    /*Pointers
+    int age = 30;
+    int * pAge = &age;
+    double gpa = 3.4;;
+    double * pGpa = &gpa;
+    char grade = 'A';
+    char * pGrade = &grade;
+    */
+    /*Dereferencing Pointers*/
+    int age = 30;
+    int * pAge = age;
+    printf("%p\n", &age);
+    printf("%d\n", &*&age);
+    printf("%d\n", *&*&age);
+    printf("%p\n", &pAge);
+    printf("%d\n", &pAge);
+    printf("%d\n", &pAge);
 
 
 }
