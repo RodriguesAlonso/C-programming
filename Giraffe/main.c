@@ -21,15 +21,7 @@ struct Student{
 };
 int main()
 {
-    struct Student student1;
-    student1.age = 22;
-    student1.gpa = 3.5;
-    strcpy( student1.name, "Jim");
-    strcpy( student1.major, "Business");
-    printf("%d", student1.age);
-    printf("\n%f", student1.gpa);
-    printf("\n%s", student1.name);
-    printf("\n%s", student1.major);
+
 
     /* if statement printf("%d", max(11, 3,2));
 
@@ -134,7 +126,28 @@ int main()
         printf("Invalid Grade");
     }
     */
-    /*Structs*/
+    /*Structs
+    struct Student student1;
+    student1.age = 22;
+    student1.gpa = 3.5;
+    strcpy( student1.name, "Jim");
+    strcpy( student1.major, "Business");
+    printf("%d", student1.age);
+    printf("\n%f", student1.gpa);
+    printf("\n%s", student1.name);
+    printf("\n%s", student1.major);*/
+    /*loop while
+    int index = 1;
+    while(index <= 5){
+        printf("%d\n", index);
+        index ++;
+    }
+    do{
+        index --;
+        printf("%d\n", index);
+    }while (index > -2);
+    */
+
 }
 /*Functions*/
     void sayHi(){

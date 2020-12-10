@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1607559941 source:d:\github\estudos\c\c-programming\giraffe\guessinggame\guessinggame\main.c
+	<stdio.h>
+	<stdlib.h>
+
