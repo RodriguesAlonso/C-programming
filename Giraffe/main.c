@@ -195,9 +195,16 @@ int main()
     /*Writing Files
     FILE * fpointer = fopen("employees.txt", "w");
     fprintf(fpointer, "Jim, Salesman\nPam, Receptionist\nOscar, Accounting");
-    fclose(fpointer);*/
+    fclose(fpointer);
     FILE * fpointer = fopen("employees.txt", "a");
     fprintf(fpointer,"\nKelly, Customer Service");
+    fclose(fpointer);*/
+    /*Reading Files*/
+    FILE * fpointer = fopen("employees.txt", "r");
+    char line[255];
+    fgets(line, 255, fpointer);
+    fgets(line, 255, fpointer);
+    printf("%s", line);
     fclose(fpointer);
 
 }
