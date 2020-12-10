@@ -156,7 +156,22 @@ int main()
     int luckNumbers[] = {4, 2, 88, 8, 17, 1};
     for (x = 0; x <= 5; x++){
         printf("%d\n", luckNumbers[x]);
+    }
     }*/
+    /*2d Array Nested Loops
+    int i, j;
+    int nums[2][3] = {
+    {1, 2, 4},{32, 13, 43}};
+    for (i = 0; i < 2; i++){
+        for (j = 0; j < 3; j++){
+            printf("%d ", nums[i][j]);
+        }
+        printf("\n");
+    }*/
+
+
+
+
 
 
 }
