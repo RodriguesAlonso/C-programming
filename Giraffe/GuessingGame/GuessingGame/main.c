@@ -3,6 +3,7 @@
 
 int main()
 {
+  int secretNumber2 = 1;
   int secretNumber = 5;
   int guess;
   int guessCont = 0;
